@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.MineFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#F08080">
+
+        <TextView
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:text="我的"
+            android:id="@+id/mine_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </android.support.v7.widget.Toolbar>
+        <LinearLayout
+            android:background="#F08080"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:layout_gravity="center"
+
+                android:id="@+id/mine_image"
+                android:src="@drawable/k1"
+                android:layout_width="96dp"
+                android:layout_height="96dp"/>
+
+            <TextView
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="LLHao"
+                android:id="@+id/mine_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ListView
+                android:id="@+id/mine_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+
+
+
+
+</LinearLayout>

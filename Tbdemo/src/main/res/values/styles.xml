@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F08080</item>
+        <item name="colorPrimaryDark">#F08080</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+<style name="myRatingBar" >
+
+    <item name="android:minHeight">5dp</item>
+
+    <item name="android:minWidth">10dp</item>
+</style>
+</resources>
